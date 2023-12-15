@@ -6,82 +6,124 @@ main {
 }
 
 
-
-
-#h1väri1 {
+main h1 {
+    font-family: 'Lustria', serif;
     color: white;
-    margin-bottom: 30px;
-    
 }
 
-#Otsikkonappi {
+p {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lustria', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+    
+    
 
-    display: flex;
-    row-gap: 50px;
+
+
+#Otsikkonappi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
     border-style:hidden;
     box-shadow: 0px 2px 20px black;
-    margin-right: 380px;
+   
     border-radius: 30px;
     background-color: #66C25E ;
-    margin-top: 30px;
+    
+
+}
+
+#main-nav {
+  display: flex;
 }
 
 
-#h1väri2 {
-        color: white;
-        margin-top: 100px;
-        margin-bottom: 20px;
-}
 
-#h1väri3 {
-    color: white;
-}
 
-#h2väri1{
-    color: aqua;
-}
 
-h1, h2 {
-    color: blue;
-}
+
+
+
+
+
 #alaotsikko{
     color: white;
 }
-p {
-    color: white;
-}
+
 
 #Text {
     margin-top: 20px;
     font-weight: bolder;
 }
 
+
+#Sotarikokset{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+  
+}
 #Formtitle {
     margin-bottom: 30px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
 }
+
+
+#topic5 label {
+    display: flex;
+    
+    color: aliceblue;
+}
+
+
+#topic5 button {
+    margin-top: 20px;
+    background-color: red;
+
+}
+
+#topic5 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+    
 
 #Kuolema {
     color: white;
     text-align: center;
-    margin-top: 200px;
+    
     margin-right: 50px;
     margin-bottom: 20px;
+    font-family: 'Lustria', serif;
 }
 
-#Sotarikokset {
+
+   
     
-    text-align: center;
-    
-}
+
 
 
 [class*="col"] section {
     padding: 60px 0;
 }
-
 
 .form-signin {
 display: flex;
@@ -178,21 +220,38 @@ nav {
    
 }
 #Mikentiedot {
-    margin-left: 100px;
+    margin-left:
+     100px;
 }
 
 
+/*-------------CHEESECARDS----------*/
+
+#MIKECHEESE{
+    
+  text-align: center;
+  color: yellow;
+  margin-bottom: 30px;
+}
 
 #card1, #card2, #card3, #card4 {
     background-color: yellow;
 
 }
 
-
-#Cards {
-    margin-top: 200px;
-    
+#topic3 p{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
 }
+
+#topic3 h2{
+    color: blue;
+display: flex;
+justify-content: center;}
+
+
 .card {
     perspective: 1000px;
     margin: 30px;
@@ -223,7 +282,7 @@ nav {
   .card-back {
     transform: rotateY(180deg);
     border-radius: 30px;
-    box-shadow: 0px 2px 100px orangered;
+    
   }
 
   #cheesetext {
@@ -236,45 +295,75 @@ nav {
       
   .card-img-top {
 
-  }
-  #MIKE{
-    text-align: center;
-    color: yellow;
-    margin-bottom: 30px;
-  }
+      width: 200px; /* You can set the dimensions to whatever you want */
+      height: 200px;
+      object-fit: cover;
 
-  #topic1 {
-    margin-top: 100px;
-  }
-  #topic2 {
-    
-    margin-top: 200px;
-    margin-right: 50px;
-    margin-bottom: 20px;
   }
 
-  #topic4 {
-
-    margin-top: -50px;
-  }
-
-  #topic5 {
-
-    margin-top: 200px;
-    margin-bottom: 200px;
-  }
-
-  #source1 {
-    margin-left: 15px;
-  }
-
-
-
-  #source2 {
-    margin-left: 15px;
-    margin-top: -20px;
-    
-  }
   
 
 
+  footer {
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+footer li {
+    list-style-type: none;
+}
+
+
+nav {
+    margin: 10px;
+    margin-bottom: 50px;
+    
+}
+
+#intro {
+    margin-bottom: 150px;
+    
+}
+
+#topic1 {
+
+    margin-bottom: 200px;
+    
+    
+}
+
+#topic2 {
+    margin-bottom: 200px;
+
+}
+
+#topic3 {
+    margin-bottom: 200px;
+
+}
+
+#topic4 {
+    margin-bottom: 200px;
+
+}
+
+#topic5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.lahteet {
+    list-style-type:disc
+}
+
+ 
+
+  #copyright {
+    margin-top: 50px;
+  }

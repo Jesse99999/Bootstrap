@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Bootstrap_tehtävä_CSS.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet" integrity=
-    "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lustria&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    
+
 </head>
 <body>
 <main>
@@ -24,69 +31,77 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
 
 <!--Navigation bar links-->
-<div class="collapse navbar-collapse justify-content-end align-center"
-id="main-nav">
+<div class=" navbar-expand-md navbar-collapse justify-content-end "
+id="main-nav ">
     <ul class="navbar-nav">
         <li class="nav-item_1">
             <a class="nav-link" href="#topic1">Johdanto</a>
         </li>
         <li class="nav-item_2">
-            <a class="nav-link" href="#topic2">Elämän työ</a>
+            <a class="nav-link" href="#topic2">Elämäntyö</a>
         </li>
         <li class="nav-item_3">
-            <a class="nav-link" href="#topic3">Lempi juustot</a>
+            <a class="nav-link" href="#topic3">Lempijuustot</a>
         </li>
         <li class="nav-item_4">
-            <a class="nav-link" href="#topic4">Sotarikokset</a>
-        </li>
+          <a class="nav-link" href="#topic4">Kuolema</a>
+      </li>
         <li class="nav-item_5">
-            <a class="nav-link" href="#topic5">Kuolema</a>
+            <a class="nav-link" href="#topic5">Sotarikokset</a>
         </li>
+        
     </ul>
         </div>
     </nav>
     
     <!-- main text + image -->
     <section id="intro">
+      
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
-                    <h1 id="h1väri1">
-                        <div class="display-2">Mike Wazowski</div>
+                    <h1 class="text-center">
+                      <div class="display-2">Mike Wazowski</div>
                         
                     </h1>
-                    <p>Taiteilija, ihminen</p>
-                <a id="Otsikkonappi" href="#jotakin" class="btn btn-secondary btn-large">Nappi</a>
+                
+                  <div class="text-center"> <p>Taiteilija, ihminen</p>
+                <a id="Otsikkonappi"   href="#linkki" class="btn btn-secondary btn-large">Nappi</a>
                 </div>
-                <div class="col-md-5 text-center d-none d-md-block">
-                    <img class="img-fluid" src="Mike3.jpg" alt="Mike Wazowski">
+                
                 </div>
 
-            </div>
-        </div>
+                  
+                <div class="col-md-5">
+                  <div id="img-fluid">
+
+                  </div>
+                    <img class="img-fluid" src="Mike3.jpg" alt="Mike Wazowski">
+                   </div>       
     </section>
+
    
     <section id="topic1">
         <div class="container-lg">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5 text-center d-none d-md-block">
+                <div class="col-md-5 text-center d-md-block">
                     <img class="img-fluid2" src="Mike2.png" alt="Mike Wazowski">
                 </div>
                 <div id="Mikentiedot" class="col-md-5 text-center text-md-start">
-                    <h1 id="h1väri2">
+                    <h1>
                         <div class="display-2">Tietoja</div>
                     </h1>
-                    <h2 id="h2väri1">Sukupuoli</h2>
+                    <h2>Sukupuoli</h2>
                     <p>Mies</p>
-                    <h2 id="h2väri1">Ikä</h2>
+                    <h2>Ikä</h2>
                     <p>28</p>
-                    <h2 id="h2väri1">Paino</h2>
+                    <h2>Paino</h2>
                     <p>41,7 Kg</p>
-                    <h2 id="h2väri1">Seksuaalinen suuntautuminen</h2>
+                    <h2>Seksuaalinen suuntautuminen</h2>
                     <p>Panseksuaali</p>
-                    <h2 id="h2väri1">Syntynyt</h2>
+                    <h2>Syntynyt</h2>
                     <p>1995</p>
-                    <h2 id="h2väri1">Kuollut</h2>
+                    <h2>Kuollut</h2>
                     <p>2023</p>
                 </div>
                 
@@ -101,13 +116,13 @@ id="main-nav">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-5 text-center text-md-start">
                     <h1 id="h1väri3">Mike Wazowskin ura</h1>
-            <p id="Text">Mike Wazowski oli taiteilija, joka toimi päätoimiselta ammatiltaan näyttelijänä. Hänen kuuluisimpiin rooleihin kuuluvat (Monsterleffat), joissa hän 
+            <p id="Text">Mike Wazowski oli taiteilija, joka toimi päätoimiselta ammatiltaan näyttelijänä. Hänen kuuluisimpiin rooleihin kuuluu rooli leffassa Monsterit Oy, joissa hän 
                 esiintyi päänäyttelijänä omana itsenään.
             <p id="Text">Wazowskin luovuus ei kuitenkaan rajoittunut vain näyttelemiseen. Hän kirjoitti elämänsä
-                aikana neljä kirjaa, joista tunnetuin oli teos "Miksi minua aina vihataan?". Useat kriitikot ovat kuitenkin arvostelleet teoksen olevan rasistinen ja kansanryhmiä vastaan kiihottavana.
+                aikana neljä kirjaa, joista tunnetuin oli teos "Miksi minua aina vihataan?". Useat kriitikot ovat kuitenkin arvostelleet teoksen olevan kansanryhmiä vastaan kiihottava
             </p>
             <p></p>
-                <p id="Text" >Wazowski ei kaihtanut tuoda esille omia poliittisia mielipiteitään. Wazowskin vuonna 2015 järjestämä stand-up esitys oli kriitikoiden mukaan antisemitistinen, homophobinen ja rasistinen. 
+                <p id="Text" >Wazowski ei kaihtanut tuoda esille omia poliittisia mielipiteitään. Wazowskin vuonna 2015 järjestämä kuuluisa stand-up esitys nostatti kohun.
                     Näytös päättyi siihen, että yleisön jäsen heitti Wazowskia puoliksi täydellä viskipullolla, minkä johdosta hän menetti alaleuastaan kolme hammasta.
                     Wazowski sai kohdalleen suuren määrän kritiikkiä ilmaistuansa räikeät näkemyksensä ihmisoikeuksista vuonna 2016. 
                     Mike Wazowskin maineikkuuden laskuun ja myöhemmin tapahtuneeseen taiteilijan alkoholisoitumiseen uskotaan vaikuttaneen tapauksesta johtunut boikotti.
@@ -121,67 +136,72 @@ id="main-nav">
 
 <!--CARD THAT FLIPS OVER-->
 
-    <section id="Cards">
-<div id="topic3"container="mt-5">
-    <h1 id="MIKE">MIKE'S FAVORITE CHEESE</h1>
+    <section id="topic3"  >
+<div>
+    <h1 id="MIKECHEESE">MIKES FAVORITE CHEESE</h1>
     <div class="row">
-        <div class="col-md-3 d-flex flex-column">
+
+        <div class="col-md-3 d-flex flex-column ">
     <div id="card1"class="card">
       <div class="card-inner">
         <div class="card-back">
-          <img src="Emmental.jpg" class="card-img-top" alt="Front Image">
+          <img src="Emmental.jpg" class="card-img-top" alt="Back Image">
           <div class="card-body">
             <h5 class="card-title">Emmental</h5>
-            <p id="cheesetext" class="card-text">Emmental-juusto on perinteinen sveitsiläinen juusto, tunnettu suurista, säännöllisistä "silmissään" tai rei'istään. 
-                Tämä hienostunut juusto tarjoaa voimakkaan maun, jossa on pähkinäisiä vivahteita. 
-                Emmental sopii erinomaisesti sulatettuna leivän päälle tai osana juustolautasta. Se on monipuolinen ja tunnustettu juustoherkku.</p>
-                <p> 
-
-                </p>
-                <p> </p>
           </div>
         </div>
         <div class="card-front">
           <div class="card-body d-flex flex-column">
             
-        </div>
+          </div>
+        
         </div>
       </div>
     </div>
+    
+    <p><strong>Emmental-juusto on perinteinen sveitsiläinen juusto, tunnettu suurista, 
+      säännöllisistä "silmissään" tai rei'istään. Tämä hienostunut juusto tarjoaa 
+      voimakkaan maun, jossa on pähkinäisiä vivahteita. 
+      Emmental sopii erinomaisesti sulatettuna leivän päälle tai osana juustolautasta. 
+      Se on monipuolinen ja tunnustettu juustoherkku.</strong></p>
   </div>
+  
+  
+
   
 
   <div class="col-md-3 d-flex flex-column align-self-stretch">
     <div id="card2" class="card">
       <div class="card-inner">
         <div class="card-back">
-          <img src="Edam.jpg" class="card-img-top" alt="Front Image">
+          <img src="Edam.jpg" class="card-img-top" alt="Back Image">
           <div class="card-body">
             <h5 class="card-title">Edam</h5>
-            <p id="cheesetext" class="card-text">Edam-juusto on perinteinen hollantilainen juusto, tunnettu pyöreästä muodostaan ja keltaisesta vahastaan. Se on mieto ja miellyttävä, sopien erinomaisesti leivän tai hedelmien kumppaniksi. 
-                Edam-juustoa arvostetaan sen monipuolisuuden ja tasapainoisen makuprofiilin vuoksi, ja se tarjoaa herkullisen lisän moniin ruokalajeihin.</p>
           </div>
         </div>
         <div class="card-front">
           <div class="card-body">
             
+                
         </div>
         </div>
       </div>
     </div>
+    <p><strong>Edam-juusto on perinteinen hollantilainen 
+      juusto, tunnettu pyöreästä muodostaan 
+      ja keltaisesta vahastaan. Se on mieto ja miellyttävä, 
+      sopien erinomaisesti leivän tai hedelmien kumppaniksi. 
+      Edam-juustoa arvostetaan sen monipuolisuuden ja tasapainoisen makuprofiilin vuoksi,
+      ja se tarjoaa herkullisen lisän moniin ruokalajeihin.</strong></p>
   </div>
 
   <div class="col-md-3 d-flex flex-column align-self-stretch">
     <div id="card3" class="card">
       <div class="card-inner">
         <div class="card-back">
-          <img src="Valkohomejuusto.jpg" class="card-img-top" alt="Front Image">
+          <img src="Valkohomejuusto.jpg" class="card-img-top" alt="Back Image">
           <div class="card-body">
             <h5 class="card-title">Valkohomejuusto</h5>
-            <p id="cheesetext" class="card-text">Valkohomejuusto on herkullinen juustotyyppi, joka saa nimensä ominaisesta valkoisesta homeestaan.
-                 Tämä hienostunut juusto tarjoaa pehmeän koostumuksen ja miellyttävän maun, jossa yhdistyvät kermainen makeus ja 
-                hienostunut pähkinäisyys. 
-                Se soveltuu mainiosti juustolautasille ja leivonnaisiin, ja sen monipuoliset maut viehättävät juuston ystäviä.</p>
           </div>
         </div>
         <div class="card-front">
@@ -190,19 +210,21 @@ id="main-nav">
         </div>
       </div>
     </div>
+    <p><strong>Valkohomejuusto on herkullinen juustotyyppi, joka saa nimensä 
+      ominaisesta valkoisesta homeestaan.
+      Tämä hienostunut juusto tarjoaa pehmeän koostumuksen ja miellyttävän maun, 
+      jossa yhdistyvät kermainen makeus ja hienostunut pähkinäisyys. 
+     Se soveltuu mainiosti juustolautasille ja leivonnaisiin, ja sen monipuoliset 
+     maut viehättävät juuston ystäviä.</strong></p>
   </div>
 
   <div class="col-md-3 d-flex flex-column align-self-stretch">
     <div id="card4" class="card">
       <div class="card-inner">
         <div class="card-back">
-          <img src="Cheddar.jpg" class="card-img-top" alt="Front Image">
+          <img src="Cheddar.jpg" class="card-img-top" alt="Back Image">
           <div class="card-body">
             <h5 class="card-title">Cheddarjuusto</h5>
-            <p id="cheesetext" class="card-text">Cheddar-juusto on perinteinen brittiläinen juusto, joka tunnetaan voimakkaasta mausta ja tiiviistä tekstuuristaan. 
-                Kypsytetty cheddar saa ajan myötä syvemmän maun ja murtaa suussa miellyttävän mureana. 
-                Cheddar sopii erinomaisesti leivontaan, ruoanlaittoon tai nautittavaksi sellaisenaan. 
-                Se on monipuolinen juusto, joka ilahduttaa juustonystäviä ympäri maailman.</p>
           </div>
         </div>
         <div class="card-front">
@@ -211,10 +233,14 @@ id="main-nav">
         </div>
       </div>
     </div>
+    <p><strong>Cheddar-juusto on perinteinen brittiläinen juusto, joka tunnetaan voimakkaasta mausta ja tiiviistä tekstuuristaan. 
+      Kypsytetty cheddar saa ajan myötä syvemmän maun ja murtaa suussa miellyttävän mureana. 
+      Cheddar sopii erinomaisesti leivontaan, ruoanlaittoon tai nautittavaksi sellaisenaan. 
+      Se on monipuolinen juusto, joka ilahduttaa juustonystäviä ympäri maailman.</strong></p>
   </div>
 </section>
 
-  <section id="topic5">
+  <section id="topic4">
     <div class="container-lg">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-5 text-center text-md-start">
@@ -231,40 +257,53 @@ id="main-nav">
 
     
     <!--FORM-->
-    <h1 id="Formtitle">Sotarikokset</h1>
-    <p id="Sotarikokset">Kirjaudu sisään nähdäksesi Mike Wazowskin törkeät sotarikokset</p>
-    <section id="topic4" class="form-signin text-center">
-    <form id="form" class="col-md-4">
-        
-        <img class="" src="">
-        <h1 class="h3 mb-3 fw-normal">Kirjaudu sisään</h1>
+    <section id="topic5">
     
-        <div id="formemail" class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Sähköpostiosoite</label>
+      <h1 id="Formtitle">Sotarikokset</h1>
+      <p id="Sotarikokset">Kirjaudu sisään nähdäksesi Mike Wazowskin törkeät sotarikokset</p>
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Sähköposti</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
         </div>
-        <div id="formemail" class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Salasana</label>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Salasana</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
         </div>
-    
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me"> Muista minut
-          </label>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label id="Muista"><input id="InputCheckBox" type="checkbox">Muista minut</label>
+            </div>
+          </div>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Kirjaudu</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2023–2023, (Tämä kirjautumislomake ei toimi)</p>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
       </form>
     </section>
 
     <!--FOOTER-->
 
     <footer>
-        <p id="source1">Lähteet</p>
-        <p id="source2">~Ne paljastettiin minulle unessa</p>
+        <ul>
+          <li><h2>Lähteet</h2></li>
+          <li class="lahteet">Omasta päästä</li>
+          <li class="lahteet">yks Simo</li>
+          <li class="lahteet">nämä paljastettiin minulle unessa</li>
+        </ul>
 
     </footer>
+
+    <footer id="copyright">
+      <p>&copy; 2023 Jesse Prami | <a href="#">Yksityisyyskäytäntö</a></p>
+  </footer>
 
 
     
@@ -290,4 +329,4 @@ id="main-nav">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </main>
 </body>
-</html> 
+</html>
